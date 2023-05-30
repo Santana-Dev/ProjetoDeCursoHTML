@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
+
+html {
+    font-family: "Roboto Mono", monospace;
+}
+h1 {
+    text-align: center;
+    color: green;
+}
+
+h2 {
+    text-align: center;
+    color: green;
+}
+
+h3 {
+    text-align: center;
+    color: green;
+}
+
+h4 {
+    text-align: center;
+    color: green;
+}
+
+/* Menu de navegação*/
+
+nav {
+    text-align: center;
+}
+
+nav a {
+    color: green;
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #1b1b32;
+    color: #f5f6f7;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#lista {
+    list-style: none;
+}
+
+nav li {
+    margin: 20px;
+}
+
+a {
+    color: green;
+}
+
+a:hover {
+    color: green;
+    background-color: #1b1b32;
+}
+
+*{
+    background-color: #1b1b32;
+} 
+
+fieldset {
+    flex-direction: column;
+    margin: 15px;
+    width: 550px;
+}
+
+#compra {
+    box-align: flex;
+    margin-left: 700px; 
+}
+.box-positon {
+    display:flex;
+    justify-content: space-between; 
+}
+/* e so vc  pegar e add essa class no elemento pai
+mais pra funcionar o pai tem que ter duas fildset ai vai um pra um lado e outro pra outro lado
+*/
+
+#botao {
+    margin-left: 240px;
+}
+
+p {
+    color: green;
+}
+
+li {
+    color: green;
+}
+
+button {
+    color: green;
+}
